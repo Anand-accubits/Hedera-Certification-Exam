@@ -1,6 +1,8 @@
-# TASK-1
+# TASK-6
 
-Description
+Create a script to create a consensus transaction on the Hedera
+Consensus Service using Account1. Write the current time in the
+message of the transaction and submit.
 
 ## How to Run
 
@@ -10,14 +12,12 @@ Description
 ## Output
 
 ```
-Newly Created Accounts are
-
 Created a new TopicCreateTransaction
-The topic ID is: 0.0.3424998
+The topic ID is: 0.0.3426372
 The message transaction status: 22
 
 ```
 
 ## Transaction URL's for reference
 
-1. [Click here to get the data on hashscan](https://hashscan.io/testnet/topic/0.0.3424998)
+

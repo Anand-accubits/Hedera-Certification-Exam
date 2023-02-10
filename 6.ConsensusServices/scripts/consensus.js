@@ -9,8 +9,8 @@ require('dotenv').config({ path:'6.ConsensusServices/.env'})
 
 console.log(process.env.ACCOUNT_ID_1)
 // Grab private key and account id for Account 1
-const acc1AccountId = '0.0.3424880';//process.env.ACCOUNT_ID_1;
-const acc1PrivateKey = PrivateKey.fromString('302e020100300506032b657004220420cdac7662481f9ac1be629bc10afb146f7a6b3141e2d6189a8103d04657ac0a9d');
+const acc1AccountId = process.env.MY_ACCOUNT_ID;
+const acc1PrivateKey = PrivateKey.fromString(process.env.MY_PRIVATE_KEY);
 
 
 // Throw error if the private key and account id's are null 
