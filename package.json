@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start:generateAccounts": "node 1.AccountService/scripts/createAccounts.js ",
+    "start:multiSignature": "node 5.MultiSignature/scripts/multiSignature.js",
+    "start:consensus": "node 6.ConsensusServices/scripts/consensus.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
