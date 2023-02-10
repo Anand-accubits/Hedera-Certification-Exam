@@ -26,8 +26,6 @@ const {
     PRIVATE_KEY_3
   } = process.env;
   
-  const clientUser = new Wallet(ACCOUNT_ID_1, PRIVATE_KEY_1);
-  
   const supplyUser = new Wallet(ACCOUNT_ID_2, PRIVATE_KEY_2);
   
   const adminUser = new Wallet(ACCOUNT_ID_1, PRIVATE_KEY_1);
@@ -211,11 +209,6 @@ const {
     //Sign with the client operator private key and submit to a Hedera network
     const tokenBalance = await balanceQuery.execute(client);
   
-    // console.log(
-    //   `- Balance of account ${user}: ${tokenBalance.hbars.toString()} + ${tokenBalance.tokens._map.get(
-    //     tokenId.toString()
-    //   )} unit(s) of token ${tokenId}`
-    // );
     console.log(
       `- Balance of account ${user}: ${tokenBalance.tokens._map.get(
         tokenId.toString()
