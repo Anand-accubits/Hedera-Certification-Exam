@@ -19,7 +19,6 @@ your tasks.
 ## Output
 
 ```
-Newly Created Accounts are
 
 Newly Created Accounts are
 
