@@ -7,6 +7,9 @@
     "start:generateAccounts": "node 1.AccountService/scripts/createAccounts.js ",
     "start:multiSignature": "node 5.MultiSignature/scripts/multiSignature.js",
     "start:consensus": "node 6.ConsensusServices/scripts/consensus.js",
+    "start:token": "node 2.FungibleToken/scripts/createAccounts.js",
+    "start:scheduled": "node 4.SchedulerTx/scripts/scheduleTransaction.js",
+    "start:smartcontract": "node Smart-Contract-Service/scripts/smartContractService.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
