@@ -1,12 +1,6 @@
 const { TransferTransaction, ScheduleDeleteTransaction, PrivateKey, ScheduleInfoQuery, ScheduleCreateTransaction, ScheduleSignTransaction, Hbar } = require("@hashgraph/sdk");
 const { getClient } = require("../../utils/common");
-
 require('dotenv').config({ path: '4.SchedulerTx/.env' })
-
-
-// const { accountsPath } = require("../../config/constants");
-// const { createAccountClient, createClient } = require("../../lib/client");
-// const [account1, account2, admin] = require(accountsPath);
 
 const accountId1 = process.env.ACCOUNT_ID_1;
 const privateKey1 = PrivateKey.fromString(process.env.PRIVATE_KEY_1);
@@ -15,11 +9,6 @@ const accountId2 = process.env.ACCOUNT_ID_2;
 const privateKey2 = PrivateKey.fromString(process.env.PRIVATE_KEY_2);
 
 const accountId3 = process.env.ACCOUNT_ID_3;
-const privateKey3 = PrivateKey.fromString(process.env.PRIVATE_KEY_3);
-
-
-// // Create a Hedera Client
-// const client = createClient();
 
 /**
  * Create a simple transfer transaction and create schedule transaction with it
