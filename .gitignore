@@ -1,0 +1,7 @@
+/node_modules/
+/cache/
+/artifacts/build-info/
+/artifacts/contracts/
+.idea
+sample.md
+/1.1.AccountService.X
